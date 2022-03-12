@@ -1,0 +1,905 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li, a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 100%;
+  height: 1873px;
+  background-color: #fff;
+}
+
+.header {
+  width: 100%;
+  height: 84px;
+  background-color: #fff;
+}
+
+.header_main {
+  width: 86.1%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.header_left {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header_left img {
+  width: 32px;
+  height: 38px;
+  margin-right: 35px;
+  cursor: pointer;
+}
+
+.header_left ul li {
+  display: inline-block;
+  padding-right: 30px;
+  color: #5A5A5A;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  white-space: nowrap;
+
+}
+
+.header_left ul li a:hover, .header_right a:hover {
+  color: #090076;
+
+}
+
+.header_left ul {
+  white-space: nowrap;
+}
+
+.header ul li:first-child a {
+  color: #090076 !important;
+
+}
+
+.header_left ul li a {
+  color: #5A5A5A;
+
+}
+
+.header_right {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+}
+
+.header_right img {
+  padding-right: 12.99px;
+  cursor: pointer;
+}
+
+.header_right a {
+  color: #161616;
+}
+
+.main_page {
+  width: 92.1%;
+  height: 1749px;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.main_topBox {
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+  position: relative;
+  background: url("images/braden-collum-75XHJzEIeUc-unsplash\ 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main_leftTextBox {
+  position: absolute;
+  height: 138px;
+  width: 458px;
+  left: 29px;
+  top: 44px;
+
+}
+
+.main_leftTextBox h2 {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: capitalize;
+  color: #090076;
+
+}
+
+.main_leftTextBox p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #161616;
+}
+
+.imgCircles {
+  width: 10%;
+  height: 20px;
+  position: absolute;
+  top: 83%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgCircles ul {
+  white-space: nowrap;
+}
+
+.imgCircles ul li {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+  background-color: #00000080;
+  cursor: pointer;
+}
+
+.imgCircles ul li:nth-child(2) {
+  background-color: #090076;
+}
+
+.main_centeredBox {
+  position: absolute;
+  height: 106px;
+  width: 82.3%;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -53px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 10px 20px 0px #0000001a;
+  background: #FFFFFF;
+
+
+}
+
+.mcb_left {
+  width: 34.5%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.mcb_left p {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #090076;
+  
+
+}
+
+.mcb_left1 {
+  height: 100%;
+  /* background-color: #090076; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.mcb_left1 p {
+  margin: 13px auto;
+  width: 6em;
+
+}
+
+.mcb_left1 input {
+  width: 109px;
+  height: 30px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.mcb_left1 input::placeholder {
+  font-size: 18px;
+  color: black;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+
+.mcb_left2 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mcb_left2 p {
+  margin: 13px auto;
+  width: 6em;
+}
+
+.mcb_left2 input {
+  width: 109px;
+  height: 30px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.mcb_left2 input::placeholder {
+  font-size: 18px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.mcb_left3 {
+  width: 10%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: auto 0;
+}
+
+.mcb_left3 button {
+  height: 34px;
+  width: 34px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.mcb_center {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.mcb_center1 {
+  width: 33%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.incDec_line {
+  width: 70%;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.incDec_line button {
+  background-color: #F2F2F8;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 100;
+  height: 34px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+
+}
+
+/* removing up down arrows from input of type number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  /* margin: 0; */
+}
+
+.incDec_line input {
+  width: 70%;
+  height: 22px;
+  width: 25px;
+  outline: none;
+  border: none;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+.incDec_inp1 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #AAAAAA;
+
+}
+
+.inpDiv {
+  width: 25px;
+}
+
+.inpDiv input {
+  width: 100%;
+}
+
+.mcb_center2, .mcb_center3 {
+  width: 33%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mcb_center1 p, .mcb_center2 p, .mcb_center3 p {
+  margin: 4px auto;
+  width: 5.5em;
+  color: #090076;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.mcb_right {
+  width: 238px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mcb_right button {
+  background-color: #090076;
+  height: 66px;
+  width: 83%;
+  border-radius: 10px;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+
+}
+
+.galleryBox {
+  width: 100%;
+  height: 261px;
+  margin-top: 102px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.galleryBox a, .roomsBox a, .servicesBox a {
+  position: absolute;
+  bottom: -20px;
+  right: 0;
+  color: #090076;
+}
+
+.galleryTxt, .roomsTxt, .servicesTxt {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.galleryTxt p, .roomsTxt p, .servicesTxt p {
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #161616;
+  padding-bottom: 5px;
+
+}
+
+.galleryTxt hr, .roomsTxt hr, .servicesTxt hr {
+  width: 92px;
+  height: 3px;
+  background-color: #090076;
+  border: none;
+  border-radius: 50px;
+}
+
+.galleryImgs, .roomsImgs, .servicesImgs {
+  margin: auto;
+  width: 100%;
+  height: 191px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.galleryImg1 {
+  width: 15.9%;
+  height: 149px;
+  background: url(images/gallery/5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  /* position: relative; */
+}
+
+.galleryImg2 {
+  width: 15.9%;
+
+  height: 149px;
+  background-color: aqua;
+  background: url(images/gallery/4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  /* position: relative; */
+}
+
+.galleryImg3 {
+  width: 15.9%;
+
+  height: 149px;
+  background-color: aqua;
+  background: url(images/gallery/3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  /* position: relative; */
+}
+
+.galleryImg4 {
+  width: 15.9%;
+  height: 149px;
+  background: url(images/gallery/6.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.galleryImg5 {
+  width: 15.9%;
+  height: 149px;
+  background-color: aqua;
+  background: url(images/gallery/1.png);
+  background-size: cover;
+  border-radius: 10px;
+
+}
+
+.galleryImg6 {
+  width: 15.9%;
+  height: 149px;
+  background-color: aqua;
+  background: url(images/gallery/2.png);
+  background-size: cover;
+  border-radius: 10px;
+
+}
+
+.galleryImg img, .roomsImg img, .servicesImg img {
+  width: 100%;
+  height: 100%;
+  /* position: absolute; */
+  border-radius: 10px;
+}
+
+.roomsBox {
+  width: 100%;
+  height: 261px;
+  margin-top: 102px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+
+.roomsImg1 {
+  width: 15.9%;
+  height: 149px;
+  background: url(images/gallery/5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  position: relative;
+  /* position: relative; */
+}
+
+.roomsImg1 p {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+
+}
+
+.roomsImg2 p {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+
+}
+
+.roomsImg3 p {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+
+}
+
+.roomsImg4 p {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+
+}
+
+.roomsImg5 p {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+
+}
+
+.roomsImg6 p {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+
+}
+
+.roomsImg2 {
+  width: 15.9%;
+
+  height: 149px;
+  background-color: aqua;
+  background: url(images/gallery/4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  position: relative;
+}
+
+.roomsImg3 {
+  width: 15.9%;
+
+  height: 149px;
+  background-color: aqua;
+  background: url(images/gallery/3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  position: relative;
+}
+
+.roomsImg4 {
+  width: 15.9%;
+  height: 149px;
+  background: url(images/gallery/6.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  position: relative;
+
+}
+
+.roomsImg5 {
+  width: 15.9%;
+  height: 149px;
+  background-color: aqua;
+  background: url(images/gallery/1.png);
+  background-size: cover;
+  border-radius: 10px;
+  position: relative;
+
+
+}
+
+.roomsImg6 {
+  width: 15.9%;
+  height: 149px;
+  background-color: aqua;
+  background: url(images/gallery/2.png);
+  background-size: cover;
+  border-radius: 10px;
+  position: relative;
+
+
+}
+
+.servicesBox {
+  width: 100%;
+  height: 261px;
+  margin-top: 102px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.servicesImg1 {
+  width: 15.9%;
+  height: 149px;
+  background: url(images/services/1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  /* position: relative; */
+}
+
+.servicesImg2 {
+  width: 15.9%;
+
+  height: 149px;
+  background-color: aqua;
+  background: url(images/services/2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  /* position: relative; */
+}
+
+.servicesImg3 {
+  width: 15.9%;
+
+  height: 149px;
+  background-color: aqua;
+  background: url(images/services/3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  /* position: relative; */
+}
+
+.servicesImg4 {
+  width: 15.9%;
+  height: 149px;
+  background: url(images/services/4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.servicesImg5 {
+  width: 15.9%;
+  height: 149px;
+  background-color: aqua;
+  background: url(images/services/5.png);
+  background-size: cover;
+  border-radius: 10px;
+
+}
+
+.servicesImg6 {
+  width: 15.9%;
+  height: 149px;
+  background-color: aqua;
+  background: url(images/services/6.png);
+  background-size: cover;
+  border-radius: 10px;
+
+}
+
+.footer {
+  width: 100%;
+  height: 226px;
+  background-color: #E5E5E5;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footLogos {
+  width: 86.1%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  margin: auto;
+
+}
+
+.footLogos img {
+  padding-right: 37.88px;
+  cursor: pointer;
+}
+
+.footNavbar {
+  width: 86.1%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  margin: auto;
+
+
+
+}
+
+.footNavbar ul li {
+  display: inline-block;
+  padding-right: 40px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  cursor: pointer;
+
+}
+
+.footer hr {
+  margin-bottom: 10px;
+  width: 86.1%;
+  border: 1px solid white;
+}
+
+.signature {
+  width: 86.1%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+
+
+/* resp */
+
+
+.header_resp {
+  display: none;
+}
+
+.navbar_resp {
+  display: none;
+}
+
+.main_centeredBox .linee {
+  width: 1px;
+  margin: auto;
+  height: 62.2%;
+  background-color: #E5E5E5;
+}
+
+.footer_resp {
+  display: none;
+
+
+
+}
