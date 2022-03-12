@@ -1,4 +1,5 @@
-@media(max-width:375px) {
+
+@media(max-width:390px){
     html, body {
         overflow-x: hidden;
     }
@@ -119,16 +120,13 @@
         border-radius: 10px;
 
     }
-
-    .imgCircles {
-        top: 72%;
+    .imgCircles{
+        top: 72%    ;
     }
-
-    .imgCircles ul li {
+    .imgCircles ul li{
         width: 5px;
         height: 5px;
     }
-
     .galleryBox {
         height: 476px;
         margin-top: 400px;
@@ -322,4 +320,5 @@
         padding-right: 19px;
 
     }
+
 }

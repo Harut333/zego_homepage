@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import imgArr from './Images';
 import "./responsive375.css"
+import "./responsive390.css"
 
 //for function Scrolling
 // import { useScrollTo } from "react-use-window-scroll";
