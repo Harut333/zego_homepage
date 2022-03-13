@@ -246,9 +246,6 @@ function App() {
           </div>
           <a href=''>See All</a>
         </div>
-
-
-
       </div>
       <div className='footer'>
         <div className='footLogos'>

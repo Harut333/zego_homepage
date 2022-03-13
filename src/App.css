@@ -44,6 +44,10 @@ li, a {
   cursor: pointer;
 }
 
+.header_left ul {
+  white-space: nowrap;
+}
+
 .header_left ul li {
   display: inline-block;
   padding-right: 30px;
@@ -56,26 +60,18 @@ li, a {
   letter-spacing: 0em;
   text-align: left;
   white-space: nowrap;
-
 }
 
 .header_left ul li a:hover, .header_right a:hover {
   color: #090076;
-
-}
-
-.header_left ul {
-  white-space: nowrap;
 }
 
 .header ul li:first-child a {
   color: #090076 !important;
-
 }
 
 .header_left ul li a {
   color: #5A5A5A;
-
 }
 
 .header_right {
@@ -84,7 +80,6 @@ li, a {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-
 }
 
 .header_right img {
@@ -120,7 +115,6 @@ li, a {
   width: 458px;
   left: 29px;
   top: 44px;
-
 }
 
 .main_leftTextBox h2 {
@@ -133,7 +127,6 @@ li, a {
   text-align: left;
   text-transform: capitalize;
   color: #090076;
-
 }
 
 .main_leftTextBox p {
@@ -189,8 +182,6 @@ li, a {
   justify-content: space-between;
   box-shadow: 0px 10px 20px 0px #0000001a;
   background: #FFFFFF;
-
-
 }
 
 .mcb_left {
@@ -209,27 +200,22 @@ li, a {
   letter-spacing: 0em;
   text-align: left;
   color: #090076;
-  
-
 }
 
-.mcb_left1 {
+.mcb_left1, .mcb_left2 {
   height: 100%;
-  /* background-color: #090076; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
-.mcb_left1 p {
+.mcb_left1 p, .mcb_left2 p {
   margin: 13px auto;
   width: 6em;
-
 }
 
-.mcb_left1 input {
+.mcb_left1 input, .mcb_left2 input {
   width: 109px;
   height: 30px;
   border: none;
@@ -247,29 +233,6 @@ li, a {
   line-height: 22px;
   letter-spacing: 0em;
   text-align: left;
-
-}
-
-
-.mcb_left2 {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.mcb_left2 p {
-  margin: 13px auto;
-  width: 6em;
-}
-
-.mcb_left2 input {
-  width: 109px;
-  height: 30px;
-  border: none;
-  outline: none;
-  font-size: 16px;
 }
 
 .mcb_left2 input::placeholder {
@@ -281,7 +244,6 @@ li, a {
   line-height: 22px;
   letter-spacing: 0em;
   text-align: left;
-
 }
 
 .mcb_left3 {
@@ -306,10 +268,9 @@ li, a {
   height: 100%;
   display: flex;
   justify-content: space-between;
-
 }
 
-.mcb_center1 {
+.mcb_center1, .mcb_center2, .mcb_center3 {
   width: 33%;
   height: 100%;
   background-color: white;
@@ -317,7 +278,6 @@ li, a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 
@@ -341,14 +301,12 @@ li, a {
   border-radius: 5px;
   border: none;
   cursor: pointer;
-
 }
 
-/* removing up down arrows from input of type number */
+/* removing up down arrows from input type number */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
-  /* margin: 0; */
 }
 
 .incDec_line input {
@@ -365,7 +323,6 @@ input::-webkit-inner-spin-button {
   line-height: 22px;
   letter-spacing: 0em;
   text-align: center;
-
 }
 
 .incDec_inp1 {
@@ -377,7 +334,6 @@ input::-webkit-inner-spin-button {
   letter-spacing: 0em;
   text-align: center;
   color: #AAAAAA;
-
 }
 
 .inpDiv {
@@ -386,16 +342,6 @@ input::-webkit-inner-spin-button {
 
 .inpDiv input {
   width: 100%;
-}
-
-.mcb_center2, .mcb_center3 {
-  width: 33%;
-  height: 100%;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .mcb_center1 p, .mcb_center2 p, .mcb_center3 p {
@@ -409,7 +355,6 @@ input::-webkit-inner-spin-button {
   line-height: 22px;
   letter-spacing: 0em;
   text-align: left;
-
 }
 
 .mcb_right {
@@ -432,10 +377,9 @@ input::-webkit-inner-spin-button {
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
-
 }
 
-.galleryBox {
+.galleryBox, .roomsBox, .servicesBox {
   width: 100%;
   height: 261px;
   margin-top: 102px;
@@ -469,11 +413,18 @@ input::-webkit-inner-spin-button {
   text-align: left;
   color: #161616;
   padding-bottom: 5px;
-
 }
 
-.galleryTxt hr, .roomsTxt hr, .servicesTxt hr {
-  width: 92px;
+.galleryTxt hr, .roomsTxt hr {
+  width: 93px;
+  height: 3px;
+  background-color: #090076;
+  border: none;
+  border-radius: 50px;
+}
+
+.servicesTxt hr {
+  width: 109px;
   height: 3px;
   background-color: #090076;
   border: none;
@@ -496,31 +447,24 @@ input::-webkit-inner-spin-button {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
-  /* position: relative; */
 }
 
 .galleryImg2 {
   width: 15.9%;
-
   height: 149px;
-  background-color: aqua;
   background: url(images/gallery/4.png);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
-  /* position: relative; */
 }
 
 .galleryImg3 {
   width: 15.9%;
-
   height: 149px;
-  background-color: aqua;
   background: url(images/gallery/3.png);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
-  /* position: relative; */
 }
 
 .galleryImg4 {
@@ -535,39 +479,24 @@ input::-webkit-inner-spin-button {
 .galleryImg5 {
   width: 15.9%;
   height: 149px;
-  background-color: aqua;
   background: url(images/gallery/1.png);
   background-size: cover;
   border-radius: 10px;
-
 }
 
 .galleryImg6 {
   width: 15.9%;
   height: 149px;
-  background-color: aqua;
   background: url(images/gallery/2.png);
   background-size: cover;
   border-radius: 10px;
-
 }
 
 .galleryImg img, .roomsImg img, .servicesImg img {
   width: 100%;
   height: 100%;
-  /* position: absolute; */
   border-radius: 10px;
 }
-
-.roomsBox {
-  width: 100%;
-  height: 261px;
-  margin-top: 102px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
-
 
 .roomsImg1 {
   width: 15.9%;
@@ -577,10 +506,9 @@ input::-webkit-inner-spin-button {
   background-repeat: no-repeat;
   border-radius: 10px;
   position: relative;
-  /* position: relative; */
 }
 
-.roomsImg1 p {
+.roomsImg1 p, .roomsImg2 p, .roomsImg3 p, .roomsImg4 p, .roomsImg5 p, .roomsImg6 p {
   position: absolute;
   left: 10px;
   bottom: 10px;
@@ -592,89 +520,11 @@ input::-webkit-inner-spin-button {
   letter-spacing: 0em;
   text-align: left;
   color: #fff;
-
-}
-
-.roomsImg2 p {
-  position: absolute;
-  left: 10px;
-  bottom: 10px;
-  font-family: Montserrat;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 22px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #fff;
-
-}
-
-.roomsImg3 p {
-  position: absolute;
-  left: 10px;
-  bottom: 10px;
-  font-family: Montserrat;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 22px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #fff;
-
-}
-
-.roomsImg4 p {
-  position: absolute;
-  left: 10px;
-  bottom: 10px;
-  font-family: Montserrat;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 22px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #fff;
-
-}
-
-.roomsImg5 p {
-  position: absolute;
-  left: 10px;
-  bottom: 10px;
-  font-family: Montserrat;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 22px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #fff;
-
-}
-
-.roomsImg6 p {
-  position: absolute;
-  left: 10px;
-  bottom: 10px;
-  font-family: Montserrat;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 22px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #fff;
-
 }
 
 .roomsImg2 {
   width: 15.9%;
-
   height: 149px;
-  background-color: aqua;
   background: url(images/gallery/4.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -684,9 +534,7 @@ input::-webkit-inner-spin-button {
 
 .roomsImg3 {
   width: 15.9%;
-
   height: 149px;
-  background-color: aqua;
   background: url(images/gallery/3.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -702,39 +550,23 @@ input::-webkit-inner-spin-button {
   background-repeat: no-repeat;
   border-radius: 10px;
   position: relative;
-
 }
 
 .roomsImg5 {
   width: 15.9%;
   height: 149px;
-  background-color: aqua;
   background: url(images/gallery/1.png);
   background-size: cover;
   border-radius: 10px;
   position: relative;
-
-
 }
 
 .roomsImg6 {
   width: 15.9%;
   height: 149px;
-  background-color: aqua;
   background: url(images/gallery/2.png);
   background-size: cover;
   border-radius: 10px;
-  position: relative;
-
-
-}
-
-.servicesBox {
-  width: 100%;
-  height: 261px;
-  margin-top: 102px;
-  display: flex;
-  flex-direction: column;
   position: relative;
 }
 
@@ -745,31 +577,24 @@ input::-webkit-inner-spin-button {
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
-  /* position: relative; */
 }
 
 .servicesImg2 {
   width: 15.9%;
-
   height: 149px;
-  background-color: aqua;
   background: url(images/services/2.png);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
-  /* position: relative; */
 }
 
 .servicesImg3 {
   width: 15.9%;
-
   height: 149px;
-  background-color: aqua;
   background: url(images/services/3.png);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
-  /* position: relative; */
 }
 
 .servicesImg4 {
@@ -784,21 +609,17 @@ input::-webkit-inner-spin-button {
 .servicesImg5 {
   width: 15.9%;
   height: 149px;
-  background-color: aqua;
   background: url(images/services/5.png);
   background-size: cover;
   border-radius: 10px;
-
 }
 
 .servicesImg6 {
   width: 15.9%;
   height: 149px;
-  background-color: aqua;
   background: url(images/services/6.png);
   background-size: cover;
   border-radius: 10px;
-
 }
 
 .footer {
@@ -816,11 +637,9 @@ input::-webkit-inner-spin-button {
   width: 14%;
   height: 22.5px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin-bottom: 25px;
-  margin: auto;
-
 }
 
 .footLogos img {
@@ -834,11 +653,7 @@ input::-webkit-inner-spin-button {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 40px;
-  margin: auto;
-
-
-
+  margin-bottom: 25px;
 }
 
 .footNavbar ul li {
@@ -852,11 +667,9 @@ input::-webkit-inner-spin-button {
   letter-spacing: 0em;
   text-align: left;
   cursor: pointer;
-
 }
 
 .footer hr {
-  margin-bottom: 10px;
   width: 86.1%;
   border: 1px solid white;
 }
@@ -867,7 +680,6 @@ input::-webkit-inner-spin-button {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
   font-family: Montserrat;
   font-size: 12px;
   font-style: normal;
@@ -875,13 +687,10 @@ input::-webkit-inner-spin-button {
   line-height: 15px;
   letter-spacing: 0em;
   text-align: left;
+  margin-bottom: -30px;
 }
 
-
-
 /* resp */
-
-
 .header_resp {
   display: none;
 }
@@ -899,7 +708,4 @@ input::-webkit-inner-spin-button {
 
 .footer_resp {
   display: none;
-
-
-
 }
