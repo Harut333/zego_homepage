@@ -98,7 +98,7 @@ li, a {
 
 .main_page {
   width: 92.1%;
-  height: 1749px;
+  height: auto;
   background-color: #fff;
   margin: auto;
   margin-top: 40px;
@@ -813,10 +813,10 @@ input::-webkit-inner-spin-button {
 }
 
 .footLogos {
-  width: 86.1%;
-  height: 30px;
+  width: 14%;
+  height: 22.5px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 25px;
   margin: auto;
@@ -824,8 +824,8 @@ input::-webkit-inner-spin-button {
 }
 
 .footLogos img {
-  padding-right: 37.88px;
   cursor: pointer;
+  height: 100%;
 }
 
 .footNavbar {

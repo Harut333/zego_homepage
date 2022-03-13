@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import imgArr from './Images';
 import "./responsive375.css"
-import "./responsive390.css"
+// import "./responsive390.css"
 
 //for function Scrolling
 // import { useScrollTo } from "react-use-window-scroll";
@@ -53,11 +53,12 @@ function App() {
               <li><a href="">Rooms</a></li>
             </ul>
           </div>
-          <div className='bars_resp'>
+          <div className='bars_resp'
+            onClick={ClickedBars}
+          >
             <img
               src={imgArr[14]}
               alt=""
-              onClick={ClickedBars}
             ></img>
           </div>
           <div className='logo_resp'>
@@ -245,47 +246,49 @@ function App() {
           </div>
           <a href=''>See All</a>
         </div>
-        <div className='footer'>
-          <div className='footLogos'>
-            <img src={imgArr[11]} alt=""></img>
-            <img src={imgArr[13]} alt=""></img>
-            <img src={imgArr[12]} alt=""></img>
-          </div>
-          <div className='footNavbar'>
-            <ul>
-              <li>About Us</li>
-              <li>Contact Us</li>
-              <li>Terms Of Use</li>
-              <li>Privacy Policy</li>
-            </ul>
-          </div>
-          <hr />
-          <div className='signature'>
-            © 2022 All Rights Reserved
-          </div>
-        </div>
 
-        {/* footer for responsive 375px */}
-        <div className='footer_resp'>
-          <div className='footNavbar'>
-            <ul>
-              <li>About Us</li>
-              <li>Contact Us</li>
-              <li>Terms Of Use</li>
-              <li>Privacy Policy</li>
-            </ul>
-          </div>
-          <div className='footLogos'>
-            <img src={imgArr[11]} alt=""></img>
-            <img src={imgArr[13]} alt=""></img>
-            <img src={imgArr[12]} alt=""></img>
-          </div>
-          <div className='signature'>
-            © 2022 All Rights Reserved
-          </div>
-        </div>
-        {/*  */}
+
+
       </div>
+      <div className='footer'>
+        <div className='footLogos'>
+          <img src={imgArr[11]} alt=""></img>
+          <img src={imgArr[13]} alt=""></img>
+          <img src={imgArr[12]} alt=""></img>
+        </div>
+        <div className='footNavbar'>
+          <ul>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>Terms Of Use</li>
+            <li>Privacy Policy</li>
+          </ul>
+        </div>
+        <hr />
+        <div className='signature'>
+          © 2022 All Rights Reserved
+        </div>
+      </div>
+      {/* footer for responsive 375px */}
+      <div className='footer_resp'>
+        <div className='footNavbar'>
+          <ul>
+            <li>About Us</li>
+            <li>Contact Us</li>
+            <li>Terms Of Use</li>
+            <li>Privacy Policy</li>
+          </ul>
+        </div>
+        <div className='footLogos'>
+          <img src={imgArr[11]} alt=""></img>
+          <img src={imgArr[13]} alt=""></img>
+          <img src={imgArr[12]} alt=""></img>
+        </div>
+        <div className='signature'>
+          © 2022 All Rights Reserved
+        </div>
+      </div>
+      {/*  */}
     </div>
   );
 }
