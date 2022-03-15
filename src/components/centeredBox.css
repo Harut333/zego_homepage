@@ -1,0 +1,204 @@
+.main_centeredBox {
+    position: absolute;
+    height: 106px;
+    width: 82.3%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -53px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 10px 20px 0px #0000001a;
+    background: #FFFFFF;
+  }
+  
+  .mcb_left {
+    width: 34.5%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .mcb_left p {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #090076;
+  }
+  
+  .mcb_left1, .mcb_left2 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mcb_left1 p, .mcb_left2 p {
+    margin: 13px auto;
+    width: 6em;
+  }
+  
+  .mcb_left1 input, .mcb_left2 input {
+    width: 109px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .mcb_left1 input::placeholder {
+    font-size: 18px;
+    color: black;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .mcb_left2 input::placeholder {
+    font-size: 18px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .mcb_left3 {
+    width: 10%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: auto 0;
+  }
+  
+  .mcb_left3 button {
+    height: 34px;
+    width: 34px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .mcb_center {
+    width: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .mcb_center1, .mcb_center2, .mcb_center3 {
+    width: 33%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .incDec_line {
+    width: 70%;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .incDec_line button {
+    background-color: #F2F2F8;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 34px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* removing up down arrows from input type number */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+  
+  .incDec_line input {
+    width: 70%;
+    height: 22px;
+    width: 25px;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  
+  .incDec_inp1 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #AAAAAA;
+  }
+  
+  .mcb_center1 p, .mcb_center2 p, .mcb_center3 p {
+    margin: 4px auto;
+    width: 5.5em;
+    color: #090076;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .mcb_right {
+    width: 238px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mcb_right button {
+    background-color: #090076;
+    height: 66px;
+    width: 83%;
+    border-radius: 10px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  .main_centeredBox .linee {
+    width: 1px;
+    margin: auto;
+    height: 62.2%;
+    background-color: #E5E5E5;
+  }

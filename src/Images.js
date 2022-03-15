@@ -17,22 +17,38 @@ import vector from "./images/Vector.png"
 
 
 
-const imgArr = [logo, shopBag, calendar, minusBtn, plusBtn, g1, g2, g3, g4, g5, g6, f1, f2, f3,vector]
-export default imgArr
+const imagesList = [
 
-//kisat 
+    logo,
+    shopBag,
+    calendar,
+    minusBtn,
+    plusBtn,
+    g1,
+    g2,
+    g3,
+    g4,
+    g5,
+    g6,
+    f1,
+    f2,
+    f3,
+    vector
+]
 
+export default imagesList
+
+//??????????????
 
 // function ImagesArr(images) {
 
 //     return (
 //         <div>
 //             {
-
-//                 images.map((image) => {
+//                 imagesList.map(item => {
 //                     return (
 //                         <div>
-//                             <img src={image} />
+//                             <img src={item} />
 //                         </div>
 
 //                     )
@@ -42,5 +58,3 @@ export default imgArr
 //     )
 
 // }
-
-// export default ImagesArr

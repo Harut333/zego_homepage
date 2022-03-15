@@ -1,0 +1,307 @@
+@media(max-width:768px) {
+    .mcb_left{
+        width: 30%;
+    }
+    .mcb_left1, .mcb_left2{
+        width: 40%;
+    } 
+    .mcb_center{
+        width: 50%;
+    }
+    .mcb_right{
+        width: 20%;
+    }
+    .mcb_left1 p, .mcb_left2 p {
+        margin: 13px auto;
+        font-size: 18px;
+        white-space: nowrap;
+    }
+    .mcb_right{
+        width: 20%;
+    }
+    .mcb_right button{
+        width: 90%;
+        height: 50px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width:320px) {
+
+    html, body {
+        overflow-x: hidden;
+    }
+
+    
+    .main_page {
+        position: static;
+    }
+
+    .main_topBox {
+        height: 120.96774291992188px;
+        width: 100%;
+        border-radius: 0px;
+        position: absolute;
+        top: 48px;
+        margin: auto -15px;
+
+
+    }
+
+    .main_leftTextBox {
+        display: none;
+    }
+
+    .main_centeredBox {
+        height: 265px;
+        width: 91.46%;
+        left: 50%;
+        top: 94px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+
+    }
+
+    .imgCircles {
+        top: 72%;
+    }
+
+    .imgCircles ul li {
+        width: 5px;
+        height: 5px;
+    }
+
+    .galleryBox {
+        height: 476px;
+        margin-top: 400px;
+    }
+
+    .roomsBox {
+        height: 476px;
+    }
+
+    .servicesBox {
+        height: 476px;
+    }
+
+    .galleryBox a, .roomsBox a, .servicesBox a {
+        margin-bottom: -30px;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .roomsImg1 p, .roomsImg2 p, .roomsImg3 p, .roomsImg4 p, .roomsImg5 p, .roomsImg6 p {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+
+
+    }
+
+    .galleryImgs, .roomsImgs, .servicesImgs {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .galleryTxt p, .roomsTxt p, .servicesTxt p {
+        font-size: 20px;
+    }
+
+    .galleryTxt hr, .roomsTxt hr {
+        width: 25%;
+    }
+
+    .servicesTxt hr {
+        width: 29%;
+    }
+
+    .galleryImg1, .roomsImg1, .servicesImg1,
+    .galleryImg2, .roomsImg2, .servicesImg2,
+    .galleryImg3, .roomsImg3, .servicesImg3,
+    .galleryImg4, .roomsImg4, .servicesImg4,
+    .galleryImg5, .roomsImg5, .servicesImg5,
+    .galleryImg6, .roomsImg6, .servicesImg6 {
+        width: 47%;
+        height: 120px;
+        margin: 5px 4px;
+    }
+
+    .mcb_left {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .mcb_left1 p, .mcb_left2 p {
+        font-size: 15px;
+    }
+
+    .mcb_left1 input, .mcb_left2 input {
+        width: 67%;
+        font-size: 15px;
+    }
+
+    .mcb_left1 input::placeholder, .mcb_left2 input::placeholder {
+        font-size: 15px;
+    }
+
+    .mcb_center1 {
+        display: none;
+    }
+
+    .mcb_center {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .mcb_center2, .mcb_center3 {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .mcb_center p {
+        width: 8%;
+        font-size: 15px;
+    }
+
+
+
+
+
+
+
+    .incDec_line {
+        width: 70%;
+        height: 34px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .incDec_line button {
+        width: 14%;
+    }
+
+    .incDec_line input {
+        font-size: 15px;
+    }
+
+    .mcb_left3 button {
+        height: 34px;
+        width: 34px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .main_centeredBox .linee {
+        border-radius: 50px;
+        height: 3px;
+        width: 89.2%;
+        margin: 3px 0;
+    }
+
+    .mcb_right {
+        width: 88.3%;
+    }
+
+    .mcb_right button {
+        width: 90%;
+        height: 44px;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+
+    .resp_bl {
+        width: 50%;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .footer_resp {
+        width: 100%;
+        height: 331px;
+        background-color: #E5E5E5;
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footNavbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 0;
+        height: auto;
+    }
+
+    .footNavbar ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footNavbar ul li {
+        padding-bottom: 25px;
+        padding-right: 0;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #5A5A5A;
+
+    }
+
+    .footLogos {
+        width: 50%;
+    }
+
+    .footLogos img {
+        padding-left: 19px;
+        padding-right: 19px;
+
+    }
+}
+
+
+
+
+@media(max-width:425px) {
+   
+
+   
+
+
+
+
+
+    .resp_bl {
+        width: 50%;
+    }
+
+}
