@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/zego_homepage/static/css/main.ffc2e1b2.css",
+    "main.js": "/zego_homepage/static/js/main.08dc128d.js",
+    "static/js/787.fbffa0b2.chunk.js": "/zego_homepage/static/js/787.fbffa0b2.chunk.js",
+    "static/media/img5.png": "/zego_homepage/static/media/img5.f0311fe85b57dd977f56.png",
+    "static/media/img4.png": "/zego_homepage/static/media/img4.330f2110636e34b2a090.png",
+    "static/media/img3.png": "/zego_homepage/static/media/img3.f6afa11c0a969caa6fe8.png",
+    "static/media/img2.png": "/zego_homepage/static/media/img2.e5af4b67ccdf09a6d251.png",
+    "static/media/img1.png": "/zego_homepage/static/media/img1.d45d4bb22366d3c4ae81.png",
+    "static/media/2.png": "/zego_homepage/static/media/2.fea83b467efd19cf784f.png",
+    "static/media/6.png": "/zego_homepage/static/media/6.c6c14cbe3ebcd1ecf178.png",
+    "static/media/4.png": "/zego_homepage/static/media/4.6838a44c664422db747e.png",
+    "static/media/3.png": "/zego_homepage/static/media/3.277c3155e6443476b4a7.png",
+    "static/media/1.png": "/zego_homepage/static/media/1.9a22464c6ac28e5fe3f9.png",
+    "static/media/5.png": "/zego_homepage/static/media/5.14c6a3cc9b9d98694e1f.png",
+    "index.html": "/zego_homepage/index.html",
+    "main.ffc2e1b2.css.map": "/zego_homepage/static/css/main.ffc2e1b2.css.map",
+    "main.08dc128d.js.map": "/zego_homepage/static/js/main.08dc128d.js.map",
+    "787.fbffa0b2.chunk.js.map": "/zego_homepage/static/js/787.fbffa0b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffc2e1b2.css",
+    "static/js/main.08dc128d.js"
+  ]
+}
