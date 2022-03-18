@@ -1,29 +1,20 @@
 import './App.css';
-
-
-import Header from './components/Header';
-import Header_resp from './components/Header_resp';
-import TopBox from './components/TopBox';
-import GalleryBox from "./components/GalleryBox"
-import RoomsBox from "./components/RoomsBox"
-import ServicesBox from "./components/ServicesBox"
-import Footer from "./components/Footer"
-import Footer_resp from "./components/Footer_resp"
-// import "./responsive390.css"
-
+import Header from './components/homepage/Header';
+import Header_resp from './components/homepage/Header_resp';
+import TopBox from './components/homepage/TopBox';
+import GalleryBox from "./components/homepage/GalleryBox"
+import RoomsBox from "./components/homepage/RoomsBox"
+import ServicesBox from "./components/homepage/ServicesBox"
+import Footer from "./components/homepage/Footer"
+import Footer_resp from "./components/homepage/Footer_resp"
 //for function Scrolling
 // import { useScrollTo } from "react-use-window-scroll";
-
 
 function App() {
 
 
-  // bars show, hide states
-
   // function Scrolling isn't working
   // function Scrolling(els) {
-
-
   //   return (
   //     <div>
   //       {
@@ -33,8 +24,10 @@ function App() {
   //       }
   //     </div >
   //   )
-
   // }
+
+
+
   return (
 
     <div className="wrapper">

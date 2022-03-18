@@ -1,27 +1,281 @@
-/* @media only screen and (max-width:320px) {
-    
-} */
+ @media only screen and (max-width:285px){
 
-
-
-
-@media(min-width:321px) and (max-width:375px) {
-
-    .galleryBox {
+    .galleryBox, .roomsBox, .servicesBox {
         height: 476px;
-        margin-top: 400px;
+        margin-top: 40px;
     }
-
-    .roomsBox {
-        height: 476px;
+    .galleryImgs .galleryImg1:nth-child(2n+1),.roomsImgs .roomsImg1:nth-child(2n+1) {
+        display: none;
     }
-
-    .servicesBox {
-        height: 476px;
-    }
-
     .galleryBox a, .roomsBox a, .servicesBox a {
-        margin-bottom: -30px;
+        margin-bottom: -39px;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .galleryTxt p, .roomsTxt p, .servicesTxt p {
+        font-size: 20px;
+
+
+    }
+
+    .galleryTxt hr, .roomsTxt hr {
+        width: 25%;
+    }
+
+    .servicesTxt hr {
+        width: 29%;
+    }
+
+    .roomsImg1 p {
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+
+
+    }
+
+    .galleryImgs, .roomsImgs, .servicesImgs {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    .galleryImg1, .roomsImg1, .servicesImg1 {
+        width: 90%;
+        height: 130px;
+        margin: 5px 0;
+    }
+
+ }
+ /* @media (min-width:280px) and (max-width:320px) {
+    .galleryImgs, .roomsImgs, .servicesImgs {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+ } */
+ @media (min-width:285px) and (max-width:322px) {
+
+     .galleryBox, .roomsBox, .servicesBox {
+         height: 476px;
+         margin-top: 40px;
+     }
+
+     .galleryBox a, .roomsBox a, .servicesBox a {
+         margin-bottom: -30px;
+         font-family: Inter;
+         font-size: 14px;
+         font-style: normal;
+         font-weight: 400;
+         line-height: 19px;
+         letter-spacing: 0em;
+         text-align: left;
+
+     }
+
+     .galleryTxt p, .roomsTxt p, .servicesTxt p {
+         font-size: 20px;
+
+
+     }
+
+     .galleryTxt hr, .roomsTxt hr {
+         width: 25%;
+     }
+
+     .servicesTxt hr {
+         width: 29%;
+     }
+
+     .roomsImg1 p {
+         font-family: Montserrat;
+         font-size: 14px;
+         font-style: normal;
+         font-weight: 500;
+         line-height: 20px;
+         letter-spacing: 0em;
+         text-align: left;
+
+
+     }
+
+     .galleryImgs, .roomsImgs, .servicesImgs {
+         display: flex;
+         flex-wrap: wrap;
+         margin-top: 20px;
+         justify-content: space-between;
+     }
+
+     .galleryImg1, .roomsImg1, .servicesImg1 {
+         width: 48%;
+         height: 120px;
+         margin: 5px 0;
+     }
+
+ }
+
+
+
+
+ @media(min-width:321px) and (max-width:375px) {
+
+     .galleryBox, .roomsBox, .servicesBox {
+         height: 476px;
+         margin-top: 40px;
+     }
+
+     .galleryBox a, .roomsBox a, .servicesBox a {
+         margin-bottom: -30px;
+         font-family: Inter;
+         font-size: 16px;
+         font-style: normal;
+         font-weight: 400;
+         line-height: 19px;
+         letter-spacing: 0em;
+         text-align: left;
+
+     }
+
+     .roomsImg1 p {
+         font-family: Montserrat;
+         font-size: 16px;
+         font-style: normal;
+         font-weight: 500;
+         line-height: 20px;
+         letter-spacing: 0em;
+         text-align: left;
+
+
+     }
+
+     .galleryImgs, .roomsImgs, .servicesImgs {
+         display: flex;
+         flex-wrap: wrap;
+         margin-top: 20px;
+     }
+
+     .galleryImg1, .roomsImg1, .servicesImg1 {
+         width: 49%;
+         height: 125px;
+         margin: 5px 0;
+     }
+
+ }
+
+ @media (min-width:376px) and (max-width:425px) {
+
+     .galleryBox, .roomsBox, .servicesBox {
+         height: 476px;
+         margin-top: 40px;
+     }
+
+     .galleryBox a, .roomsBox a, .servicesBox a {
+         margin-bottom: -30px;
+         font-family: Inter;
+         font-size: 16px;
+         font-style: normal;
+         font-weight: 400;
+         line-height: 19px;
+         letter-spacing: 0em;
+         text-align: left;
+
+     }
+
+     .roomsImg1 p {
+         font-family: Montserrat;
+         font-size: 16px;
+         font-style: normal;
+         font-weight: 500;
+         line-height: 20px;
+         letter-spacing: 0em;
+         text-align: left;
+
+
+     }
+
+     .galleryImgs, .roomsImgs, .servicesImgs {
+         display: flex;
+         flex-wrap: wrap;
+         margin-top: 20px;
+     }
+
+     .galleryImg1, .roomsImg1, .servicesImg1 {
+         width: 49%;
+         height: 125px;
+         margin: 5px 0;
+     }
+
+ }
+
+
+
+
+ @media (min-width:426px) and (max-width:600px) {
+
+     .galleryBox, .roomsBox, .servicesBox {
+         height: 476px;
+         margin-top: 50px;
+     }
+
+     .galleryBox a, .roomsBox a, .servicesBox a {
+         font-family: Inter;
+         font-size: 16px;
+         font-style: normal;
+         font-weight: 400;
+         line-height: 19px;
+         letter-spacing: 0em;
+         text-align: left;
+
+     }
+
+     .roomsImg1 p {
+         font-family: Montserrat;
+         font-size: 16px;
+         font-style: normal;
+         font-weight: 500;
+         line-height: 20px;
+         letter-spacing: 0em;
+         text-align: left;
+
+
+     }
+
+     .galleryImgs, .roomsImgs, .servicesImgs {
+         display: flex;
+         flex-wrap: wrap;
+         margin-top: 20px;
+     }
+
+     .galleryImg1, .roomsImg1, .servicesImg1 {
+         width: 33%;
+         height: 150px;
+         margin: 5px 0;
+
+     }
+ }
+
+ @media (min-width:601px) and (max-width:900px) {
+    .galleryBox, .roomsBox, .servicesBox {
+        height: 476px;
+        margin-top: 50px;
+    }
+    .galleryBox a, .roomsBox a, .servicesBox a{
+        bottom: -63px;
+    }
+    .galleryBox a, .roomsBox a, .servicesBox a {
         font-family: Inter;
         font-size: 16px;
         font-style: normal;
@@ -32,7 +286,7 @@
 
     }
 
-    .roomsImg1 p, .roomsImg2 p, .roomsImg3 p, .roomsImg4 p, .roomsImg5 p, .roomsImg6 p {
+    .roomsImg1 p {
         font-family: Montserrat;
         font-size: 16px;
         font-style: normal;
@@ -51,135 +305,9 @@
     }
 
     .galleryImg1, .roomsImg1, .servicesImg1 {
-        width: 49%;
-        height: 125px;
-        margin: 5px 0;
-    }
-
-    .galleryImg2, .roomsImg2, .servicesImg2 {
-        width: 49%;
-        height: 125px;
+        width: 33%;
+        height: 200px;
         margin: 5px 0;
 
     }
-
-    .galleryImg3, .roomsImg3, .servicesImg3 {
-        width: 49%;
-        height: 125px;
-        margin: 5px 0;
-
-    }
-
-    .galleryImg4, .roomsImg4, .servicesImg4 {
-        width: 49%;
-        height: 125px;
-        margin: 5px 0;
-
-    }
-
-    .galleryImg5, .roomsImg5, .servicesImg5 {
-        width: 49%;
-        height: 125px;
-        margin: 5px 0;
-
-    }
-
-    .galleryImg6, .roomsImg6, .servicesImg6 {
-        width: 49%;
-        height: 125px;
-        margin: 5px 0;
-
-    }
-
-
-}
-@media (min-width:376px) and (max-width:425px) {
-    
-    .galleryBox {
-        height: 476px;
-        margin-top: 400px;
-    }
-
-    .roomsBox {
-        height: 476px;
-    }
-
-    .servicesBox {
-        height: 476px;
-    }
-
-    .galleryBox a, .roomsBox a, .servicesBox a {
-        margin-bottom: -30px;
-        font-family: Inter;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 19px;
-        letter-spacing: 0em;
-        text-align: left;
-
-    }
-
-    .roomsImg1 p, .roomsImg2 p, .roomsImg3 p, .roomsImg4 p, .roomsImg5 p, .roomsImg6 p {
-        font-family: Montserrat;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 20px;
-        letter-spacing: 0em;
-        text-align: left;
-
-
-    }
-
-    .galleryImgs, .roomsImgs, .servicesImgs {
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 20px;
-    }
-
-    .galleryImg1, .roomsImg1, .servicesImg1 {
-        width: 49%;
-        height: 125px;
-        margin: 5px 0;
-    }
-
-    .galleryImg2, .roomsImg2, .servicesImg2 {
-        width: 49%;
-        height: 125px;
-        margin: 5px 0;
-
-    }
-
-    .galleryImg3, .roomsImg3, .servicesImg3 {
-        width: 49%;
-        height: 125px;
-        margin: 5px 0;
-
-    }
-
-    .galleryImg4, .roomsImg4, .servicesImg4 {
-        width: 49%;
-        height: 125px;
-        margin: 5px 0;
-
-    }
-
-    .galleryImg5, .roomsImg5, .servicesImg5 {
-        width: 49%;
-        height: 125px;
-        margin: 5px 0;
-
-    }
-
-    .galleryImg6, .roomsImg6, .servicesImg6 {
-        width: 49%;
-        height: 125px;
-        margin: 5px 0;
-
-    }
-
-
-
-
-}
+ }
